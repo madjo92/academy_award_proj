@@ -1,10 +1,10 @@
-# <h1 align="center">ds_academyi_proj</h1>
-# <h2 align="center">Exploratory Data Analysis and data scraping for the Academy Award winners and nominees for Best International Feature Film</h2>
+# <h1 align="center">academy_award_proj</h1>
+# <h2 align="center">Exploratory Data Analysis and data scraping for the Academy Award winners and nominees for Best Picture</h2>
 
 ## Code and Resources Used:
 * **Python Version:** 3.8
 * **Jupiter Notebook:** 6.3
-* **Web Scraping:** https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw , http://www.omdbapi.com/
+* **Web Scraping:** https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw , http://www.omdbapi.com/ , https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg
 * **Packages:**  BeautifulSoup, pandas, numpy, matplotlib, seaborn, json, pickle, nltk, wordcloud
 
 ## Web Scraping
@@ -60,6 +60,13 @@ After scraping the data, I needed to clean it up so that it was usable for eda. 
 *  Top 10 most successful films acording to awards and nominations they recieved
 *  Creating a plot to compare Winners and nominees through the months
 *  Creating countplot to visualize most common genres or combinations of genres in the dataset
+*  Exploring the relationship between the Budget and the awards.
+*  Exploring the relationship between the year in which movie is released and its awards
+*  Exploring the relationship between the Budget and the Box office.
+*  Exploring the relationship between the Budget and the Year the movie is Released.
 *  How successful were the movies who won an Oscar comparing to the ones who didn't? Measuring the awards and nominations they recieved.
-*  Plot for  Academy Awards and nominations for Best International Feature Film  by country
+*  Comparing Distribution of Scores Across Sites
 *  Checking the most common words used in the plot
+*  Checking the most common words used in the plot in the last 30 years to compare with all time most common words 
+
+### Final thoughts: By analysing this data we can see that Drama is by far most populat genre in the academy. We can notice that the Budget and Box office normally are highly correlated aslo the Budget for the movies is growing over the Years as we see previosly and which is kind of expected because of the inflation and the growth of the movie industry. Sum of the awards and the year that is also normal beacause nowadays have a lot more movie festivals than before. Interesting thing is that the stories did't change to much over time. Also I found interesting that the 12th month of the year (December) we have the most nominees and winners.
